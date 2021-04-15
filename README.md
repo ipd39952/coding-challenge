@@ -44,4 +44,4 @@ DB_PASSWORD=YOUR_PASSWORD
 * I wanted to stick to using PostgreSQL but effort of learning enough of Sequelize really slowed me down
 * One thing I would change if I had to do the challenge again would be to look into using Mongoose to see if my productivity with go up
 
-### Looking forward to and appreciate any sort of feedback! 🌱
+### Looking forward to and appreciate any feedback! 🌱
