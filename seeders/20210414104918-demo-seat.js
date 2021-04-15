@@ -1,5 +1,5 @@
 'use strict'
-const models = require('../models')
+const { Room } = require('../models')
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -15,7 +15,7 @@ module.exports = {
 
     let data = []
     let amount = 10
-    const rooms = await models.Room.findAll()
+    const rooms = await Room.findAll()
     let room = null
     const date = new Date()
     while (amount--) {

@@ -1,6 +1,7 @@
 'use strict';
 
-var models = require('../models');
+var _require = require('../models'),
+    Room = _require.Room;
 
 module.exports = {
   up: function up(queryInterface, Sequelize) {
@@ -21,7 +22,7 @@ module.exports = {
             data = [];
             amount = 10;
             _context.next = 4;
-            return regeneratorRuntime.awrap(models.Room.findAll());
+            return regeneratorRuntime.awrap(Room.findAll());
 
           case 4:
             rooms = _context.sent;
