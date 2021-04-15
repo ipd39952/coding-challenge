@@ -38,7 +38,7 @@ DB_PASSWORD=YOUR_PASSWORD
 ### Main takeaways
 * Learning Node.js in the matter of a few days has been a very positive experience
 * I was happy to see how much of the backend concepts from Rails that I already know are easily translatable in a different language
-* Contrary to what I expected, I had close to no issues adopting to Node and Express, manly due to the well written documentation and many resources online
+* Contrary to what I expected, I had close to no issues adopting to Node and Express, mainly due to the well written documentation and many resources online
 * What was most time consuming was learning to use the Sequelize module. While it shares a lot a similarities to a Ruby gem that I was comfortable with, I ran into a lot of issues initially as well as when it came to small details. I've also found different resources online that were more helpful than the official documentation.
 * I wanted to stick to using PostgreSQL but effort of learning enough of Sequelize really slowed me down
 * One thing I would change if I had to do the challenge again would be to look into using Mongoose to see if my productivity with go up
