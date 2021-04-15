@@ -24,7 +24,7 @@ DB_PASSWORD=YOUR_PASSWORD
 * *Changes to database name, host and port can be done inside the ```config/config.js``` file*
   
 * ```sequelize db:create && sequelize db:migrate && sequelize db:seed:all```
-  * Seed files create 1 User, 10 Rooms and 10 Seats assigned to random rooms
+  * Seeds files create 1 User, 10 Rooms and 10 Seats assigned to random rooms
   * You might have to install the ```sequelize-cli``` globally to use it from the terminal: ```npm i -g sequelize-cli```
 * ```npm start```
 
